@@ -1,0 +1,361 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #fdffff;
+    color: #323232;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logoImg {
+    width: 50px;
+}
+
+nav {
+    border-top: 1px solid #323232;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: #fdffff;
+}
+
+.logo {
+    padding: 1em 0 1em 1em;
+}
+
+nav a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #323232;
+    font-size: 0.7em;
+    transition: .3s ease;
+}
+
+.navItems {
+    padding: 2em 1.5em 0 1.5em;
+}
+
+.navItems:hover {
+    color: #2c88ff;
+    transition: .3s ease;
+}
+
+.dmIcon {
+    background-image: url("../images/Digital_marketing_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 50% 0;
+}
+
+.pcIcon {
+    background-image: url("../images/pc_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 50% 0;
+}
+
+.caseIcon {
+    background-image: url("../images/case_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 50% 0;
+}
+
+.contactIcon {
+    background-image: url("../images/contact_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 50% 0;
+}
+
+h1 {
+    padding: 1em;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+h2 {
+    padding: 1.2em;
+    margin: 0;
+}
+
+p {
+    padding: 0 2em 2em 2em;
+    margin: 0;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.orange-btn {
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 2em 2em 2em;
+    background-image: linear-gradient(to right, #fab03c, #ff3148);
+    display: inline-block;
+    color: #fdffff;
+    border-radius: 2em;
+    transition: .3s ease;
+}
+
+.orange-btn:hover {
+    color: #fdffff;
+    background-image: linear-gradient(to right, #2c88ff, #0a41d3);
+    transition: .3s ease;
+}
+
+.orange-btn-blue-bg {
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 2em 2em 2em;
+    background-image: linear-gradient(to right, #fab03c, #ff3148);
+    display: inline-block;
+    color: #fdffff;
+    border-radius: 2em;
+    transition: .3s ease;
+}
+
+.orange-btn-blue-bg:hover {
+    color: #323232;
+    background-image: none;
+    background-color: #fdffff;
+    transition: .3s ease;
+}
+
+footer {
+    background-color: #323232;
+    text-align: center;
+    height: 404px;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    color: #fdffff;
+    padding: 1em 0;
+    text-align: center;
+    transition: .3s ease;
+}
+
+footer a:hover {
+    color: #2c88ff;
+    transition: .3s ease;
+}
+
+.smIcon {
+    width: 30px;
+}
+
+.smRef {
+    display: inline-block;
+    padding: 1em;
+}
+
+.bg-blue {
+    /*background-image: linear-gradient(to right, #2c88ff, #0a41d3);*/
+    background-color: #2c88ff;
+    color: #fdffff;
+}
+
+.m-icons {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: block;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    width: 100%;
+    transition: .3s ease;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.input:focus {
+    outline: 0;
+    border-bottom: 2px solid #2c88ff;
+    transition: .3s ease;
+}
+
+.input-btn {
+    border: none;
+    cursor: pointer;
+}
+
+#textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    transition: .3s ease;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#textarea:focus {
+    outline: 0;
+    border-bottom: 2px solid #2c88ff;
+    transition: .3s ease;
+}
+
+.mx-bottom {
+    margin-bottom: 1em;
+}
+
+form {
+    padding: 2em;
+}
+
+.form-btn {
+    text-decoration: none;
+    padding: 1em;
+    margin-top: 2em;
+    background-image: linear-gradient(to right, #fab03c, #ff3148);
+    display: inline-block;
+    color: #fdffff;
+    border-radius: 2em;
+    transition: .3s ease;
+}
+
+.form-btn:hover {
+    color: #fdffff;
+    background-image: linear-gradient(to right, #2c88ff, #0a41d3);
+    transition: .3s ease;
+}
+
+.case {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.festivalAd {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.app {
+    width: 200px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .logoImg {
+        width: 75px;
+    }
+    nav {
+        position: unset;
+        border-top: none;
+    }
+    .navItems {
+        padding: 1em 2em;
+        font-size: 1.2em;
+    }
+    nav a {
+        font-size: 1em;
+    }
+    .orange-btn {
+        font-size: 1.1em;
+    }
+    .orange-btn-blue-bg {
+        font-size: 1.1em;
+    }
+    footer {
+        height: 100%;
+        padding: 1em;
+    }
+    .dmIcon {
+        background-image: none;
+    }
+    .pcIcon {
+        background-image: none;
+    }
+    .caseIcon {
+        background-image: none;
+    }
+    .contactIcon {
+        background-image: none;
+    }
+    .blue-btn {
+        text-decoration: none;
+        padding: 1em;
+        background-image: linear-gradient(to right, #2c88ff, #0a41d3);
+        background-size: 100%;
+        display: inline-block;
+        color: #fdffff;
+        border-radius: 2em;
+        transition: .3s ease;
+    }
+    .blue-btn:hover {
+        color: #fdffff;
+        background-image: linear-gradient(to right, #fab03c, #ff3148);
+        transition: .3s ease;
+    }
+    li {
+        width: 40%;
+        display: inline-block;
+        margin: 4%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navItems {
+        margin: 1em 2em;
+    }
+    .float-left {
+        float: left;
+        width: 50%;
+    }
+    .float-right {
+        float: right;
+        width: 50%;
+    }
+    .align-middle {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg-blue {
+        padding: 0 6em;
+    }
+    .clearfix::after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navItems {
+        margin: 1em 4em;
+    }
+}

@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/StuBru.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 5335px;
+}
+
+img {
+    width: 415px;
+    height: 453px;
+    position: absolute;
+    top: 2663px;
+    right: 49px;
+}

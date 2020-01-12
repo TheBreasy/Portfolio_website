@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/RadioFG.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 7405px;
+}
+
+img {
+    position: absolute;
+    top: 3360px;
+    right: 135px;
+    width: 357px;
+    height: 371px;
+}

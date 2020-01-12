@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/Qmusic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2027px;
+}
+
+img {
+    width: 368px;
+    height: 300px;
+    position: absolute;
+    top: 376px;
+    right: 32px;
+}
