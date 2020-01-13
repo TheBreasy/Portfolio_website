@@ -270,6 +270,7 @@ form {
     }
     p {
         font-size: 1.1em;
+        padding: 0 4em 2em 4em;
     }
     .logoImg {
         width: 75px;
@@ -331,6 +332,9 @@ form {
 }
 
 @media (min-width: 1000px) {
+    p {
+        padding: 0 3em 2em 3em;
+    }
     .navItems {
         margin: 1em 2em;
     }
@@ -360,5 +364,8 @@ form {
 @media (min-width: 1200px) {
     .navItems {
         margin: 1em 4em;
+    }
+    p {
+        padding: 0 6em 1em 6em;
     }
 }
