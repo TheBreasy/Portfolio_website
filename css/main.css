@@ -21,6 +21,7 @@ nav {
     bottom: 0;
     text-align: center;
     background-color: #fdffff;
+    padding-bottom: 1em;
 }
 
 .logo {
@@ -130,7 +131,7 @@ p {
 footer {
     background-color: #323232;
     text-align: center;
-    height: 404px;
+    height: 420px;
 }
 
 footer a {
@@ -276,6 +277,7 @@ form {
     nav {
         position: unset;
         border-top: none;
+        padding-bottom: 0;
     }
     .navItems {
         padding: 1em 2em;
@@ -329,6 +331,9 @@ form {
 }
 
 @media (min-width: 1000px) {
+    nav {
+        padding-bottom: 0;
+    }
     .navItems {
         margin: 1em 2em;
     }
