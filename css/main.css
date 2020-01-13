@@ -89,6 +89,7 @@ p {
     margin: 0;
     letter-spacing: 0.1em;
     line-height: 1.5em;
+    text-align: left;
 }
 
 .orange-btn {
