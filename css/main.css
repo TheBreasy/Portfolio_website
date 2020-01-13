@@ -331,9 +331,6 @@ form {
 }
 
 @media (min-width: 1000px) {
-    nav {
-        padding-bottom: 0;
-    }
     .navItems {
         margin: 1em 2em;
     }
