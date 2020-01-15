@@ -10,6 +10,14 @@ ul {
     padding: 0;
 }
 
+.topLogo {
+    display: block;
+    text-align: center;
+    background-color: #fdffff;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
 .logoImg {
     width: 50px;
 }
@@ -25,7 +33,7 @@ nav {
 }
 
 .logo {
-    padding: 1em 0 1em 1em;
+    padding: 1em 0;
 }
 
 nav a {
@@ -38,7 +46,7 @@ nav a {
 }
 
 .navItems {
-    padding: 2em 1.5em 0 1.5em;
+    padding: 2em 0.8em 0 0.8em;
 }
 
 .navItems:hover {
@@ -258,7 +266,28 @@ form {
     margin-bottom: 1em;
 }
 
+@media (min-width: 370px) {
+    .navItems {
+        padding: 3.5em 1em 1em 1em;
+    }
+    .dmIcon {
+        background-position: 50% 30%;
+    }
+    .pcIcon {
+        background-position: 50% 30%;
+    }
+    .caseIcon {
+        background-position: 50% 30%;
+    }
+    .contactIcon {
+        background-position: 50% 30%;
+    }
+}
+
 @media (min-width: 768px) {
+    .topLogo {
+        display: none;
+    }
     body {
         text-align: center;
     }
