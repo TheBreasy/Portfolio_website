@@ -111,36 +111,22 @@ p {
     color: #fdffff;
     border-radius: 2em;
     transition: .3s ease;
+    font-weight: 700;
+    box-shadow: 0 5px 15px #fe6a45;
 }
 
 .orange-btn:hover {
     color: #fdffff;
     background-image: linear-gradient(to right, #2c88ff, #0a41d3);
     transition: .3s ease;
-}
-
-.orange-btn-blue-bg {
-    text-decoration: none;
-    padding: 1em;
-    margin: 0 2em 2em 2em;
-    background-image: linear-gradient(to right, #fab03c, #ff3148);
-    display: inline-block;
-    color: #fdffff;
-    border-radius: 2em;
-    transition: .3s ease;
-}
-
-.orange-btn-blue-bg:hover {
-    color: #323232;
-    background-image: none;
-    background-color: #fdffff;
-    transition: .3s ease;
+    box-shadow: 0 5px 15px #2c88ff;
 }
 
 footer {
     background-color: #323232;
     text-align: center;
     height: 420px;
+    margin-top: 2em;
 }
 
 footer a {
@@ -177,6 +163,21 @@ footer a:hover {
     margin-right: auto;
     margin-top: 2em;
     display: block;
+}
+
+.contact {
+    margin-top: 2em;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #2c88ff;
+    transition: .3s ease;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    transition: .3s ease;
 }
 
 .input {
@@ -232,12 +233,15 @@ form {
     color: #fdffff;
     border-radius: 2em;
     transition: .3s ease;
+    font-weight: 700;
+    box-shadow: 0 5px 15px #fe6a45;
 }
 
 .form-btn:hover {
     color: #fdffff;
     background-image: linear-gradient(to right, #2c88ff, #0a41d3);
     transition: .3s ease;
+    box-shadow: 0 5px 15px #2c88ff;
 }
 
 .case {
@@ -305,6 +309,9 @@ form {
         font-size: 1.1em;
         padding: 0 4em 2em 4em;
     }
+    .contact p {
+        padding: 0 4em 2em 4em;
+    }
     .logoImg {
         width: 75px;
     }
@@ -317,14 +324,12 @@ form {
         padding: 1em 2em;
         font-size: 1.2em;
         width: auto;
+        font-weight: 700;
     }
     nav a {
         font-size: 1em;
     }
     .orange-btn {
-        font-size: 1.1em;
-    }
-    .orange-btn-blue-bg {
         font-size: 1.1em;
     }
     footer {
@@ -352,11 +357,14 @@ form {
         color: #fdffff;
         border-radius: 2em;
         transition: .3s ease;
+        font-weight: 700;
+        box-shadow: 0 5px 15px #2c88ff;
     }
     .blue-btn:hover {
         color: #fdffff;
         background-image: linear-gradient(to right, #fab03c, #ff3148);
         transition: .3s ease;
+        box-shadow: 0 5px 15px #fe6a45;
     }
     li {
         width: 40%;
@@ -401,5 +409,8 @@ form {
     }
     p {
         padding: 0 6em 1em 6em;
+    }
+    .contact p {
+        padding: 2em 5em;
     }
 }
