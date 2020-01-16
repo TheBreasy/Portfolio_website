@@ -316,6 +316,7 @@ form {
     .navItems {
         padding: 1em 2em;
         font-size: 1.2em;
+        width: auto;
     }
     nav a {
         font-size: 1em;
