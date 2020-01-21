@@ -319,6 +319,7 @@ form {
         position: unset;
         border-top: none;
         padding-bottom: 0;
+        width: initial;
     }
     .navItems {
         padding: 1em 2em;
